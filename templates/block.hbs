@@ -1,0 +1,25 @@
+{{#if details}}
+  <span class="p-title">{{fa-icon "info" fixedWidth=true}} Fortress FIA Results</span>
+    {{#if details.patch}}
+      <div>
+          <span class="p-key">Patch: </span>
+          <a href="{{block.userOptions.url}}/verify/{{details.patch}}" class="p-link">{{details.patch}} {{fa-icon "external-link-square" class="external-link-icon"}}</a><br>
+      </div>
+    {{/if}}
+    {{#if details.validated_at}}
+      <div>
+          <span class="p-key">Validated At: </span>
+          <span class="p-value">{{details.validated_at}}</span>
+      </div>
+    {{/if}}
+    {{#if details.meta.filename}}
+      <div>
+          <span class="p-key">Filename: </span>
+          <span class="p-value">{{details.meta.filename}}</span>
+      </div>
+    {{/if}}
+    {{#if details.meta.analystNotes}}
+      <div><span class="p-key">Analyst Notes: </span></div>
+      <div class="notes-container">{{details.meta.analystNotes}}</div>
+    {{/if}}
+{{/if}}
