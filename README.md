@@ -4,7 +4,7 @@ The Polarity Fortress integration allows for SHA-256 entity types to be enriched
 
 For more information on Fortress, please visit https://fortressinfosec.com/
 
-<img src="https://user-images.githubusercontent.com/22529325/113424866-dd30a280-939e-11eb-8e0e-8c3a0a8ae09e.png"  width="250px" height="300px">
+<img src="https://user-images.githubusercontent.com/22529325/113424866-dd30a280-939e-11eb-8e0e-8c3a0a8ae09e.png"  width="400px" >
 
 ## Fortress Integration Options
 
