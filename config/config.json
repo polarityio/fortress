@@ -1,0 +1,52 @@
+{
+  "name": "Fortress FIA Hash Search",
+  "acronym": "FIA",
+  "description": "Fortress File Integrity Assurance provides real-time patch source verification and patch integrity validation, providing another layer of protection for software updates.",
+  "entityTypes": [
+    "SHA256"
+  ],
+  "onDemandOnly": true,
+  "defaultColor": "light-gray",
+  "styles": [
+    "./styles/style.less"
+  ],
+  "block": {
+    "component": {
+      "file": "./components/block.js"
+    },
+    "template": {
+      "file": "./templates/block.hbs"
+    }
+  },
+  "request": {
+    "cert": "",
+    "key": "",
+    "passphrase": "",
+    "ca": "",
+    "proxy": "",
+    "rejectUnauthorized": true
+  },
+  "logging": {
+    "level": "info"
+  },
+  "options": [
+    {
+      "key": "url",
+      "name": "Base Fortress FIA URL",
+      "description": "The base URL for the Fortress FIA server including the schema (i.e., https://)",
+      "default": "",
+      "type": "text",
+      "userCanEdit": false,
+      "adminOnly": true
+    },
+    {
+      "key": "apiKey",
+      "name": "Valid Fortress FIA API Key",
+      "description": "Valid Fortress FIA API Key",
+      "default": "",
+      "type": "password",
+      "userCanEdit": true,
+      "adminOnly": false
+    }
+  ]
+}
