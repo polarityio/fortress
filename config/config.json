@@ -1,4 +1,5 @@
 {
+  "polarityIntegrationUuid": "ecb55c90-cce1-11ed-aeee-075d3490155d",
   "name": "Fortress FIA Hash Search",
   "acronym": "FIA",
   "description": "Fortress File Integrity Assurance provides real-time patch source verification and patch integrity validation, providing another layer of protection for software updates.",
